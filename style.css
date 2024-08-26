@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.container{
+    background-image: url(images/pic.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(96, 90, 90);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 120vh;
+}
+
+.header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.header span{
+    color: rgb(219, 88, 94);
+}
+.menu{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 30px;
+    background-color: rgb(0, 0, 0);
+    border: 1px 5px solid ;
+    width: 7rem;
+    padding: 5px;
+
+    
+}
+.menu h3{
+    font-size: 15px;
+    color: rgb(219, 88, 94);
+}
+.menu i{
+    font-size: 30px;
+    margin-left: 20px;
+ 
+}
+.section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+  }
+
+
+
+  
+  
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+}
+   
+.icon i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.ano {
+    position: absolute;
+    left: 13em;
+    transform: translateY(100%); /* initial position: 100% below its original position */
+    animation: slideUp 1.5s forwards; /* animation name, duration, and fill-mode */
+  }
+  
+  @keyframes slideUp {
+    to {
+      transform: translateY(0); /* final position: original position */
+    }
+  }
+.ano h3{
+    font-size: 18px;
+    color: rgb(91, 89, 89); 
+    word-spacing: 10px;
+    margin-bottom: 15px;
+}
+
+.ano h1{
+    font-size: 70px;
+
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 28rem;
+}
+.btn button{
+    width: 13rem;
+    height: 50px;
+    background: transparent;
+    color: white;
+    padding:10px;
+    border: 2px solid white;
+    cursor: pointer;
+    text-align: center;
+
+}
+.btn button:last-child{
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 1.5s;
+}
+
+
+
+
+.another{
+    background-color: rgb(219, 88, 94);
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    
+       
+}
+
+.another .section{
+    display: flex;
+    flex-direction: column;
+
+}
+.first{
+   margin: 20px;
+   margin-bottom: 10em;
+
+   
+}
+
+
+.first h2{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 20px;
+}
+.first h1{
+    font-size: 80px;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+    width: 35rem;
+    border-color: rgb(176, 174, 174);
+
+    
+}
+
+.another .section .second{
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 40px;
+    color: black;
+    position: absolute;
+    top: 48em;
+
+}
+
+.another .place{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    top: 40em;
+    padding-right: 10px;
+    margin-bottom: 6rem;
+
+    
+    
+
+}
+.place div{
+    border-right: 1px solid white;
+    padding-right: 50px;
+   margin-left: 50px;
+    border-color: rgb(176, 174, 174);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.place .places{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+.place h1{
+    text-align: center;
+    align-content: center;
+    font-size: 90px;
+    
+}
+.place h2{
+    display: flex;
+    color: black;
+   
+    font-size: 20px;
+    
+    text-align: center;
+}
+
+.place .happy{
+    border-right: none;
+}
+
+
+.other{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 150vh;
+    
+
+}
+.top{
+    text-align: center;
+    padding-bottom: 90px;
+    position: absolute;
+    top: 116rem;
+}
+.top h1{
+    color: rgb(219, 88, 94);
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.top p{
+    font-size: 50px;
+    color: black;
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+    width: 15em;
+
+}
+.bodys{
+    column-count: 2;
+    column-gap: 100px;
+    justify-content: space-between;
+    position: absolute;
+    top: 132rem;
+    
+}
+/* .bodys div{
+    padding-right: 80px;
+    padding-bottom: 30px;
+} */
+.bodys div h1{
+    color: black;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.bodys div p{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.recent{
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    margin-bottom: 90px;
+}
+.rec{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+    margin-bottom: 90px;
+    
+}
+.rec p{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.rec h1{
+    font-size: 60px;
+    
+}
+
+.image{
+    column-count: 2;
+    column-gap: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 70vw;
+    justify-items: center;
+    position: absolute;
+    top: 205em;
+
+  
+  
+   
+}
+.image img:first-child{
+    height: 60vh;
+}
+image img:third-child{
+    height: 600vh;
+}
+
+.image img{
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid: center;
+    cursor: pointer;
+   
+}
+
+.image img:hover{
+    transition: 0.5s;
+   transform: scale(1.02);
+}
+  
+
+
+
+
