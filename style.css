@@ -55,6 +55,83 @@ body{
     margin-left: 20px;
  
 }
+
+
+
+
+
+/* Navigation panel (initially hidden) */
+.nav-panel {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: #fff;
+    z-index: 10;
+  }
+  
+  .nav-panel ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 30px;
+    
+  }
+  
+  .nav-panel ul li {
+    padding: 10px 0;
+    text-align: left;
+  }
+  
+  .nav-panel ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  /* Close button */
+  .nav-panel .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 36px;
+    cursor: pointer;
+  }
+.per{
+    margin-top: 50px;
+    width: 190px;
+    margin-left: 30px;
+    line-height: 25px;
+    color: rgb(69, 68, 68);
+}
+.per span{
+    color: #878484;
+}
+.per span:hover{
+    color: #fff;
+    transition: 1s;
+}
+.bra{
+    margin-top: 40px;
+    margin-left: 25px;
+    color: rgb(69, 68, 68);
+}
+.bra i{
+    padding: 5px;
+    cursor: pointer;
+}
+.bra i:hover{
+    color: #fff;
+    transition: 1s;
+}
+
+
+
+
 .section{
     align-items: center;
     justify-content: center;
@@ -261,8 +338,7 @@ button:hover{
 .place h1{
     text-align: center;
     align-content: center;
-    font-size: 90px;
-    
+    font-size: 90px; 
 }
 .place h2{
     display: flex;
